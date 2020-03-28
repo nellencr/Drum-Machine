@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Drum Machine</title>
+  <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+<body>
+  <div id="drum-machine">
+    <audio class="clip" src="sounds/A.wav" autostart="false" id="A"></audio>
+    <audio class="clip" src="sounds/E.wav" autostart="false" id="E"></audio>
+    <audio class="clip" src="sounds/W.wav" autostart="false" id="W"></audio>
+    <audio class="clip" src="sounds/S.wav" autostart="false" id="S"></audio>
+    <audio class="clip" src="sounds/D.wav" autostart="false" id="D"></audio>
+    <audio class="clip" src="sounds/Z.wav" autostart="false" id="Z"></audio>
+    <audio class="clip" src="sounds/X.wav" autostart="false" id="X"></audio>
+    <audio class="clip" src="sounds/C.wav" autostart="false" id="C"></audio>
+    <audio class="clip" src="sounds/Q.wav" autostart="false" id="Q"></audio>
+    <h1 id="display">Drum Machine</h1>
+    <div class="machine-wrapper">
+      <div id="Q" class="drum-pad" onclick="playSample('Q')">Q</div>
+      <div id="W" class="drum-pad" onclick="playSample('W')">W</div>
+      <div id="E" class="drum-pad" onclick="playSample('E')">E</div>
+      <div id="A" class="drum-pad" onclick="playSample('A')">A</div>
+      <div id="S" class="drum-pad" onclick="playSample('S')">S</div>
+      <div id="D" class="drum-pad" onclick="playSample('D')">D</div>
+      <div id="Z" class="drum-pad" onclick="playSample('Z')">Z</div>
+      <div id="X" class="drum-pad" onclick="playSample('X')">X</div>
+      <div id="C" class="drum-pad" onclick="playSample('C')">C</div>
+    </div>
+    <div id="name">-by Nellah k</div>
+  </div>
+   <script src="main.js"></script>
+</body>
+</html>
